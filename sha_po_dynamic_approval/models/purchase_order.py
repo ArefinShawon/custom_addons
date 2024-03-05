@@ -64,7 +64,7 @@ class PurchaseOrder(models.Model):
                     })
                     return {
                         'effect': {
-                            'fadeout': 'fast',
+                            'fadeout': 'slow',
                             'message': 'Thank You! The Purchase Order Has Been Approved From Your Side!',
                             'type': 'rainbow_man',
                             'img_url': 'sha_po_dynamic_approval/static/img/approved.png'
@@ -86,7 +86,7 @@ class PurchaseOrder(models.Model):
                     })
                     return {
                         'effect': {
-                            'fadeout': 'fast',
+                            'fadeout': 'slow',
                             'message': 'The Purchase Order Has Been Rejected!!',
                             'type': 'rainbow_man',
                             'img_url': 'sha_po_dynamic_approval/static/img/reject.png'

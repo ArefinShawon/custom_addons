@@ -20,7 +20,7 @@
                        options="{'no_create_edit': True, 'no_create': True}"
                        help="Assign a purchase team for multilevel approval"/>
                 <field name="team_lead_id" options="{'no_open': True}" string="Purchase Team Lead"/>
-                <field name="is_approval_member"/>
+                <field name="is_approval_member" invisible="1"/>
             </xpath>
             <xpath expr="//notebook" position="inside">
                 <page string="Approve Route">
