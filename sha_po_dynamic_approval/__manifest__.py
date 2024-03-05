@@ -1,5 +1,5 @@
 {
-    'name': 'Purchase Order Dynamic Approval',
+    'name': 'Dynamic Purchase Order Approval/Purchase Approval',
     'version': 'v16',
     'description': """
     Purchase order approval system. 
