@@ -3,7 +3,7 @@
     'version': 'v16',
     'summary': 'Import Order Line from XLSX File',
     'description': 'Import Sale & Purchase Order Line from XLSX File',
-    'license': 'LGPL-3',
+    'license': 'AGPL-3',
     'author': 'Shawon',
     'depends': ['report_xlsx', 'purchase', 'sale_management'],
     'data': [
