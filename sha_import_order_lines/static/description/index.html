@@ -5,6 +5,7 @@
 
 <div style="font-family: 'Montserrat', sans-serif; font-size: 14px; padding: 16px 0;">
     Import Order Line from XLSX File. Clicking the import products button in sale order and purchase order will pop up a wizard. No extra configuration is required.
+Keep in mind the module has dependecies of <b>"Base report xlsx"</b>.
 </div>
 <!-- END OF OVERVIEW SECTION -->
 
@@ -60,7 +61,7 @@
     </div>
     <div>
         <p style="font-family: 'Montserrat', sans-serif; font-size: 14px; margin: 20px 0; font-weight: bold;">
-            After selecting file to import and clicking the import will show line wise success.
+            After selecting file to import and clicking the import will show line wise success. It will first search by product code/Internal Reference. if not found than it will search by the product_product name.
         </p>
         <div>
             <img src="assets/screenshots/ss4.png" style="width: 50%;">
